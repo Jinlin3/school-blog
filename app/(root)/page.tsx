@@ -4,7 +4,7 @@ import LoginCard from "../components/LoginCard";
 export default function Home() {
   return (
     <>
-      <h1>Home Page</h1>
+      <h1 className="text-center text-3xl py-5">Home Page</h1>
       <LoginCard />
     </>
   );
