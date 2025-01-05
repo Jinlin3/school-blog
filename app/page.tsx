@@ -1,4 +1,5 @@
 import { CampusCombobox } from "@/components/CampusCombobox";
+import SearchForm from "@/components/SearchForm";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
         <p className="py-4">Search for your campus below!</p>
         <CampusCombobox />
       </section>
+      <div className="flex items-center justify-center bg-red-400">
+        <SearchForm />
+      </div>
       <section>
         Grid Section
       </section>
